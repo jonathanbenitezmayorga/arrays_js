@@ -2,34 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <script>
-        // declaracion un array con elementos en linea 
-        console.log("--------------------")
-        console.log("Arrays en javascript")
-        console.log("--------------------")
-        console.log("1. Decarando un array con elelmentos en linea ")
-        let miArray= [1,2,3];
+        // declarando una array con elemntos en linea
+        console.log("-------------------");
+        console.log("Array en Javascript");
+        console.log("-------------------");
+        console.log("1. declarando una array con elementos en linea");
+        let miArray = [1,2,3];
         console.log(miArray);
-        console.log("2. declarando un array con la sintaxis newArray() ")
-        let miArray2= new Array(1,2,3);
+
+        console.log("2. declarando un array con la sintaxis new Array()");
+        let miArray2 = new Array(1,2,3);
         console.log(miArray2);
-        console.log("3. declarando un array con un tamaño especifico utilizando la sintaxis new array y asignando valores despues:")
-        let miArray3= new Array(3);
-        miArray3[0] = 1;
-        miArray3[0] = 2;
-        miArray3[0] = 3;
+
+        console.log("3. declarando una array con un tamaño especifica utilizando la sintaxis new Array y asignando valores despues");
+        let miArray3 = new Array(3);
+        miArray[0] = 1;
+        miArray[1] = 2;
+        miArray[2] = 3;
         console.log(miArray3);
-        console.log("4. ")
-        let miArray4= [1, "dos", true, {nombre: "juan", edad: 30 }] 
-        miArray4[0] = 1;
-        miArray4[0] = 2;
-        miArray4[0] = 3;
+
+        console.log("4. declarando una array con diferentes tipos de datos.");
+        let miArray4 = [1,"dos", true, {nombre: "juan", edad: 30}]
         console.log(miArray4);
+
+        console.log("----------------------------------");
+        console.log("acceder a la informacion del Array");
+        console.log("----------------------------------");
+        const letters = ["A", "B", "C"];
+        console.log(letters.length);
+        console.log(letters[2]);
+        console.log(letters[5]);
+
     </script>
+
+    
 </body>
 </html>
